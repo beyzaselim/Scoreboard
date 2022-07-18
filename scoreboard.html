@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scoreboard.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text"></h1>
+            <div class="scoreboard">
+                <div class="team-container">
+                <h2 class="text">HOME</h2>
+                <div class="one">
+                    <p class="points" id="home-points">0</p>
+                    
+            </div>
+            <div class="two">
+                <button id="one-point" onclick="homeAddPoint()">+1</button>
+                <button id="two-points" onclick="homeAddTwoPoints()">+2</button>
+                <button id="three-points" onclick="homeAddThreePoints()">+3</button>
+                </div>
+                    </div>
+                    <div class="team-container">
+                <h2>GUEST</h2>
+                <div class="one">
+                    <p class="points" id="guest-points">0</p>
+              
+            </div>
+        <div class="two">
+            <button id="one-point" onclick="guestAddPoint()">+1</button>
+            <button id="two-points" onclick="guestAddTwoPoints()">+2</button>
+            <button id="three-points" onclick="guestAddThreePoints()">+3</button>
+        </div>
+        </div>
+         </div>
+         
+        <script src="scoreboard.js"></script>
+    </body>
+</html>
